@@ -50,7 +50,7 @@ namespace QUEST
                 case 0:
 
                     pictureBox1.Image = Properties.Resources.sc002_dialog;
-                    label1.Text = "Хозяйка, Ваш кофе готов. \n Ваша матушка ожидает Вас1.";
+                    label1.Text = "Хозяйка, Ваш кофе готов. \n Ваша матушка ожидает Вас.";
                     break;
 
                 case 1:
