@@ -51,7 +51,7 @@ namespace QUEST
 
                     pictureBox1.Image = Properties.Resources.sc002_dialog;
                     label1.ForeColor = Color.PaleGreen; //меняет цвет 
-                    label1.Text = "Хозяйка, Ваш кофе готов. \n Ваша матушка ожидает Вас внизу.";
+                    label1.Text = "Хозяйка, Ваш кофе готов. \n Ваша матушка ждёт Вас внизу.";
                     break;
 
                 case 1:
