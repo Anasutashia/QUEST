@@ -29,7 +29,7 @@ namespace QUEST
             button2.Hide();
             button3.Show();
             label1.Show();
-            label1.Text = "Всё просто идеально";
+            label1.Text = "Всё просто идеально!";
             pictureBox1.Image = Properties.Resources.sc001_dialog;
 
 
@@ -50,7 +50,7 @@ namespace QUEST
                 case 0:
 
                     pictureBox1.Image = Properties.Resources.sc002_dialog;
-                    label1.Text = "Хозяйка, Ваш кофе готов. \n Ваша матушка ожидает Вас.";
+                    label1.Text = "Хозяйка, Ваш кофе готов. \n Ваша матушка ожидает Вас внизу.";
                     break;
 
                 case 1:
