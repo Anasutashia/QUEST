@@ -38,22 +38,24 @@
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.PapayaWhip;
             this.button1.Location = new System.Drawing.Point(495, 30);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(180, 23);
             this.button1.TabIndex = 1;
             this.button1.Text = "Старт";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.Color.PapayaWhip;
             this.button2.Location = new System.Drawing.Point(495, 93);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(180, 23);
             this.button2.TabIndex = 2;
             this.button2.Text = "Выход";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.Button2_Click);
             // 
             // pictureBox1
@@ -69,12 +71,13 @@
             // 
             // button3
             // 
+            this.button3.BackColor = System.Drawing.Color.LemonChiffon;
             this.button3.Location = new System.Drawing.Point(654, 423);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(129, 23);
             this.button3.TabIndex = 3;
             this.button3.Text = "Далее";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.Button3_Click);
             // 
             // label1
@@ -82,7 +85,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Comic Sans MS", 21.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.label1.ForeColor = System.Drawing.Color.Aqua;
             this.label1.Location = new System.Drawing.Point(50, 459);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(95, 41);
