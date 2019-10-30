@@ -29,7 +29,7 @@ namespace QUEST
             button2.Hide();
             button3.Show();
             label1.Show();
-            label1.Text = "Всё просто идеально!";
+            label1.Text = "Анна \n Всё просто идеально!";
             pictureBox1.Image = Properties.Resources.sc001_dialog;
 
 
@@ -51,17 +51,30 @@ namespace QUEST
 
                     pictureBox1.Image = Properties.Resources.sc002_dialog;
                     label1.ForeColor = Color.PaleGreen; //меняет цвет 
-                    label1.Text = "Хозяйка, Ваш кофе готов. \n Ваша матушка ждёт Вас внизу.";
+                    label1.Text = "РП47в3 \n Хозяйка, Ваш кофе готов. \n Ваша матушка ждёт Вас внизу.";
                     break;
 
                 case 1:
 
                     pictureBox1.Image = Properties.Resources.sc003_dialog;
                     label1.ForeColor = Color.MistyRose; //меняет цвет 
-                    label1.Text = "Анна, доченька, я так рада тебя. \n видеть! А где мои внуки?";
+                    label1.Text = "Матушка \n Анна, доченька, я так рада тебя. \n видеть! А где мои внуки?";
                     break;
 
-                   
+                case 2:
+
+                    pictureBox1.Image = Properties.Resources.sc003_dialog;
+                    label1.ForeColor = Color.Aqua; //меняет цвет 
+                    label1.Text = "Анна \n Готовятся завтракать. Как Ваш заграничный \n  отдых, мама?";
+                    break;
+
+                case 3:
+
+                    pictureBox1.Image = Properties.Resources.sc003_dialog;
+                    label1.ForeColor = Color.MistyRose; //меняет цвет 
+                    label1.Text = "Матушка \n Как всегда восхитетельно! А ты снова \n  поручила воспитание своих детей роботам?";
+                    break;
+
             }
 
             a++;
