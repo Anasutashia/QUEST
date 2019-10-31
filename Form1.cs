@@ -20,7 +20,9 @@ namespace QUEST
             InitializeComponent();
             button3.Hide();
             label1.Hide();
-            label1.Parent = pictureBox1; //картинка родительский элемент что бы сделать фон прозрачным
+            label2.Hide();
+            label1.Parent = pictureBox1;
+            label2.Parent = pictureBox1;//картинка родительский элемент что бы сделать фон прозрачным
         }
        
         private void Button1_Click(object sender, EventArgs e)
@@ -75,6 +77,20 @@ namespace QUEST
                     label1.Text = "Матушка \n Как всегда восхитетельно! А ты снова \n  поручила воспитание своих детей роботам?";
                     break;
 
+                case 4:
+
+                    pictureBox1.Image = Properties.Resources.sc003_dialog;
+                    label1.ForeColor = Color.Aqua; //меняет цвет 
+                    label1.Text = "Анна \n Если бы не эти роботы, Вы бы не ездели \n  по заграницам, мама.";
+                    break;
+                case 5:
+
+                    pictureBox1.Image = Properties.Resources.sc004_dialog;
+                    label1.Hide();
+                    label2.Show();
+                    label2.ForeColor = Color.Aqua; //меняет цвет 
+                    label2.Text = "Анна \n Да, если бы не эти роботы... \n  Если бы ни одна глупая идея, поразившая \n меня когда-то... Мир бы не изменился...";
+                    break;
             }
 
             a++;
