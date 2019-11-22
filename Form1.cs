@@ -145,7 +145,31 @@ namespace QUEST
                     label2.Hide();
                     label1.Show();
                     label1.ForeColor = Color.Aqua; //меняет цвет 
-                    label1.Text = ".:|Анна|:. \n РП47в3, а что случилось?";
+                    label1.Text = "-:|Анна|:- \n РП47в3, а что случилось?";
+                    break;
+                case 13:
+
+                    pictureBox1.Image = Properties.Resources.sc002_dialog;//поставить другую картинку с роботом
+                    label2.Hide();
+                    label1.Show();
+                    label1.ForeColor = Color.PaleGreen; //меняет цвет 
+                    label1.Text = "РП47в3: \n Ваша дача, рядом с родным городом \n оказалась затоплена из-за разлива реки ";
+                    break;
+                case 14:
+
+                    pictureBox1.Image = Properties.Resources.sc002_dialog;//поставить другую картинку с роботом
+                    label2.Hide();
+                    label1.Show();
+                    label1.ForeColor = Color.PaleGreen; //меняет цвет 
+                    label1.Text = "РП47в3: \n требуется оценить ущерб и подписать\n некоторые бумаги.";
+                    break;
+                case 15:
+
+                    pictureBox1.Image = Properties.Resources.sc001_dialog;
+                    label2.Hide();
+                    label1.Show();
+                    label1.ForeColor = Color.Aqua; //меняет цвет 
+                    label1.Text = "-:|Анна|:- \n Я сама туда поеду.";
                     break;
             }
 
