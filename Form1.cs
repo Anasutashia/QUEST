@@ -171,6 +171,14 @@ namespace QUEST
                     label1.ForeColor = Color.Aqua; //меняет цвет 
                     label1.Text = "-:|Анна|:- \n Я сама туда поеду.";
                     break;
+                case 16:
+
+                    pictureBox1.Image = Properties.Resources.sc002_dialog;//поставить другую картинку с роботом
+                    label2.Hide();
+                    label1.Show();
+                    label1.ForeColor = Color.PaleGreen; //меняет цвет 
+                    label1.Text = ".:|РП47в3|:. \n Сейчас соберу все необходимые документы.";
+                    break;
             }
 
             a++;
